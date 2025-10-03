@@ -28,11 +28,14 @@
     border: 1px dashed black;
 }
 
-/* TTTTTTTTAAAAAAAAAAGGGGGGGGGGG */
-header{
-    height: 100px;
-    width: 100%;
+.bg-gray{
+    background-color: rgb(139, 138, 138);
 }
+
+.bg-white{
+    background-color: white;
+}
+/* TTTTTTTTAAAAAAAAAAGGGGGGGGGGG */
 
 .nav {
     background-color: lightblue;
@@ -81,3 +84,33 @@ header{
     height: 80%;
     background-color: pink;
 }
+
+main{
+    background-color: blueviolet;
+    /* DEBUG */
+    min-height: 600px;
+    width: 100%;
+}
+
+.sezione{
+    height: 400px;
+    width: 100%;
+}
+
+.card{
+    width: 70%;
+    height: 80%;
+}
+
+.card section:nth-child(1){
+    height: 100%;
+    width: 60%;
+    background-color: rgb(0, 191, 255);
+}
+
+.card section:nth-child(2){
+    height: 100%;
+    width: 40%;
+    background-color: rgb(249, 138, 210);
+}
+
